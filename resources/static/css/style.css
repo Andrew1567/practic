@@ -1,0 +1,29 @@
+/* Фірмовий колір Glovo */
+.navbar-glovo {
+    background-color: #00a082;
+    color: white;
+}
+
+/* Стилізація карток товарів */
+.product-card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+}
+
+.card-body {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.btn-success {
+    background-color: #00a082;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #00856c;
+}
